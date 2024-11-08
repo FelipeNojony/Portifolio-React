@@ -1,0 +1,73 @@
+.home {
+    background-color: #ddd;
+    display: flex;
+    min-width: calc(100vh - 125px);
+    height: 400px;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.home .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 50%;
+    margin-top: 20px;
+}
+
+.home .informacoes h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.home .informacoes p {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.redes-sociais {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.redes-sociais a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    transition: 0.5s;
+
+}
+
+
+
+.redes-sociais a i:hover {
+    color: #9443d8;
+    transform: scale(1.3);
+}
+
+.home .container-foto .foto {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.home .container-foto img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.home .foto.sombra-interna {
+    background-color: #000;
+}
