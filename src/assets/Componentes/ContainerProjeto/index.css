@@ -1,0 +1,140 @@
+.projeto-ativo a {
+  
+  width: 1370px;
+  height: 730px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-top: 10px;
+  
+}
+
+.info-projeto {
+  
+  display: flex;
+  flex-direction: column;
+
+  .descricao-titulo h3 {
+    color: #ddd;
+    padding: 30px 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+  }
+
+  .descricao-subtitulo p {
+    color: #ddd;
+    margin-top: -30px;
+    padding: 0px 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+  }
+
+  .descricao {
+    color: #aaa;
+    padding: 30px 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+  }
+
+  .estado-projeto h4 {
+    padding: 10px 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+  }
+
+  button {
+    opacity: 50%;
+    background-color: green;
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    width: 130px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+  }
+
+  .tecnologias h4 {
+    padding: 30px 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+  }
+
+  .tecnologias i {
+    padding: 10px 10px;
+    margin-left: 10px;
+    font-size: 30px;
+  }
+}
+
+.projetos .container-projetos {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.projetos .projeto-ativo {
+  border-radius: 5px;
+  display: none;
+  margin: 20px 20px 20px;
+}
+
+.imagem {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 710px;
+  max-height: 670px;
+  
+
+  .bloco-1 {
+    display: flex;
+    gap: 10px;
+
+    img{
+      width: 350px;
+      position: relative;
+      padding: 10px;
+      border-radius: 10px;
+      background: linear-gradient(to right, #9343d964, #94438d60);
+      
+    }
+    
+  }
+
+  .bloco-2 {
+    
+    display: flex;
+    gap: 10px;
+    
+
+    img{
+      width: 350px;
+      position: relative;
+      padding: 10px;
+      border-radius: 10px;
+      background: linear-gradient(to right, #9343d964, #94438d60);
+      
+              
+    }
+    
+  }
+}
+
+.projetos .projeto-ativo {
+  display: block;
+}
+
+.projetos .projeto-ativo img {
+  border-radius: 5px;
+  max-width: 350px;
+  
+  
+}
+
+

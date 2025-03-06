@@ -76,4 +76,5 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
+    background: linear-gradient(180deg, #000, #222);
 }

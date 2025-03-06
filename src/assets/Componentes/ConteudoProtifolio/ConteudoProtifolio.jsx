@@ -4,7 +4,7 @@ import Informacoes from "../Informacoes/Informacoes";
 import Projetos from "../Projetos/Projetos";
 import './index.css'
 
-function ConteudoProtifolio() {
+export default function ConteudoProtifolio() {
   return (
     <>
         <Header/> 
@@ -30,4 +30,3 @@ function ConteudoProtifolio() {
   );
 }
 
-export default ConteudoProtifolio;
