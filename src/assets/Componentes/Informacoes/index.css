@@ -1,51 +1,93 @@
 .home {
-    display: flex;
-    min-width: calc(100vh - 125px);
-    height: 460px;
-    align-items: center;
-    gap: 50px;
-    flex-direction: column;
+  display: flex;
+  min-width: calc(100vh - 125px);
+  height: 630px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 
 .home .informacoes {
-    
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    letter-spacing: 2px;
-    padding: 0 15px;
-    max-width: 50%;
-    
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: 2px;
+  padding: 0 15px;
+  max-width: 50%;
+  margin-top: 30px;
 }
 
 .home .informacoes h1 {
-    color: #aaa;
-    font-family: "Raleway", sans-serif;
-    font-size: 35px;
-    text-align: center;
-    
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  font-size: 40px;
+  align-items: center;
+  margin-top: 150px;
+  font-weight: bold;
 }
 
 .home .informacoes p {
-    color: #aaa;
-    font-family: "Raleway", sans-serif;
-    font-size: 24px;
-    text-align: center;
+  color: #71717b;
+  font-size: 16px;
+  text-align: center;
 }
 
-.home .container-foto .foto {
-    border: #9443d8 solid 3px;
-    margin-top: 20px;
-    max-width: 150px;
-    border-radius: 50%;
+.lista-tecnologias {
+  color: #ffffff;
+  display: flex;
+  gap: 20px;
+  padding: 25px 10px;
+  font-size: 35px;
 }
 
-.home .container-foto img {
-    background-color: #aaa;
-    width: 100%;
-    border-radius: 100%;
+span {
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+  color: #fb2c36;
 }
 
-.home .foto.sombra-interna {
-    background-color: #9443d8;
+.button-down{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 66px;
+  
+
+  .arrow-down a {    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      margin-top: 480px;
+      
+
+      button{ 
+        background-color: transparent;
+        height: 33px;
+        color: #71717b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        transition: 0.5s;
+
+        .icon{
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+
+    .arrow-down a button:hover {
+      color: #ffffff;
+      border-bottom: #fb2c36 4px solid;     
+    }
 }
+
+

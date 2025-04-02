@@ -1,10 +1,10 @@
-import ConteudoProtifolio from '../../assets/Componentes/ConteudoProtifolio/ConteudoProtifolio';
+import ConteudoPortifolio from '../../assets/Componentes/ConteudoPortifolio/ConteudoPortifolio';
 import './index.css'
 
 export default function Portifolio() {
     return (
         <>
-            <ConteudoProtifolio />
+            <ConteudoPortifolio />
         </>
     );
 }

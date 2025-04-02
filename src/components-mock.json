@@ -1,0 +1,15 @@
+{
+    "container_projetos": [
+        {
+            "id": "1",
+            "image1": {
+                "src": "./src/assets/img/wine image.png",
+                "alt": "Foto Home da pagina"
+            },
+            "title": "Wine Experience",
+            "subtitle": "E-commerce de vinhos",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque pariatur repudiandae molestiae numquam assumenda dolorem nostrum saepe exercitationem, non rem nemo at ipsa et minus neque vel nisi accusantium ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores impedit quis, nesciunt eos ut facilis in odit aliquam illum deserunt voluptate laudantium sed veniam reprehenderit nisi officiis placeat dolorem provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quasab dolore accusamus rerum qui numquam officia iste eum molestiae aliquam magni ad. Facere, quisquam? Architecto eveniet repellat officiis veniam.",
+            "status": "Em Construção"
+        }
+    ]
+}

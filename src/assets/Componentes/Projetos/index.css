@@ -1,16 +1,47 @@
-.projetos {
-  height: 1120px;
-  
-
+.container-dos-projetos {
+  background-color: #000000;  
+  height: 720px;
 }
 
-.projetos .titulo {
-  background: linear-gradient(90deg, #9443d9, #94438d); 
-  text-align: center;
-  max-width: 100%;
-  height: 155px;
-  font-size: 45px;
-  font-weight: 500;
-  text-transform: uppercase;
+.button-down{
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 66px;
 
+  .arrow-down-about a {     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      
+
+      button{
+        background-color: transparent;
+        height: 33px;
+        color: #71717b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        transition: 0.5s;
+
+        .icon{
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+
+    .arrow-down-about a button:hover {
+      color: #ffffff;
+      border-bottom: #fb2c36 4px solid;     
+    }
 }
+
+
+
+

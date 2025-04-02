@@ -1,0 +1,206 @@
+.container-sobre-mim {
+  background-color: #000000;
+  height: 696px;
+  display: flex;
+  flex-direction: column;
+
+  .about {
+    display: flex;
+    height: 650px;
+    justify-content: space-around;
+
+    .about-me {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 20px;
+
+      .info-sobre-mim {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -37px;       
+      }
+    }
+
+    .line-center {
+      background: linear-gradient(
+        to top,
+        #000000 10%,
+        #71717b 50%,
+        #000000 90%
+      );
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 1px;
+      
+    }
+
+    .competencias {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      border: none;
+      margin: 20px 20px;
+
+      .competencias-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        background: linear-gradient(to right, #0c0c0c 30%, #71717b3a 100%);
+        width: 90%;
+        height: 55%;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(212, 0, 0, 0.481);
+        margin-bottom: 20px;
+
+        .icones{
+          
+          width: 95%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          font-size: 30px;
+          gap: 25px;
+          
+        }        
+      }
+
+      .line {
+        background: linear-gradient(
+          to right,
+          #000000 10%,
+          #71717b 50%,
+          #000000 90%
+        );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        height: 1px;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .perfil-tecnico {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 35%;
+        margin-bottom: 10px;
+
+        .titulo-perfil-tecnico h2{
+          color: #fb2c36;
+          font-size: 20px;
+          margin-bottom: 30px;
+          font-weight: bold;
+          
+        }
+        .perfil-tecnico-box {
+          width: 95%;
+          height: 115px;
+          max-height: 115px;
+          margin-bottom: 10px;
+          
+
+          .texto-perfil-tecnico {          
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            p {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              color: #71717b;
+              font-size: 12px;
+              font-weight: 500;
+              padding: 5px 20px;
+              max-width: 95%;
+              
+              .span-perfil-tecnico {
+                font-size: 12px;
+                color: #fb2c36;
+                
+              }
+            }  
+            
+            
+            
+          }
+
+        }
+      }
+    }
+
+    .titulo h2 {
+      color: #fb2c36;
+      font-size: 20px;
+      margin-bottom: 30px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .texto {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 30px;
+
+      p {
+        color: #71717b;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        padding: 5px 20px;
+        width: 100%;
+
+      }
+
+
+      
+    }
+  }
+
+  .arrow-down a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+
+    button {
+      background-color: transparent;
+      height: 33px;
+      color: #71717b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      transition: 0.5s;
+
+      .icon {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  .arrow-down a button:hover {
+    color: #ffffff;
+    border-bottom: #fb2c36 4px solid;
+  }
+}
